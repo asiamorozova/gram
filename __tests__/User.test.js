@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const User = require('./User');
+const User = require('../lib/models/User');
 
 describe('User model', () => {
   it('hashes password', () => {
