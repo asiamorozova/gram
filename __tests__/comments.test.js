@@ -26,7 +26,7 @@ describe('comments tests', () => {
         
   });
 
-  it('delets a comment', async() =>{
+  it('deletes a comment', async() =>{
     const user = await getUser();
     const comment = await getComment({ commentBy: user._id });
     return getAgent()
